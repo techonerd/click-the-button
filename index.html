@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Click the button!</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app"><section class="container">
+    <h1>Hello!</h1>
+    <h2>Welcome to the internet.</h2>
+    <p>This is a classic website, no traps or weird stuff!</p>
+    <p>Feel free to browse, relax and, I don't know, click the button down there. Might as well, right?</p>
+    <button class="debug-button">Debug</button>
+  </section><button class="trap-button">Button!</button>
+  <div class="grab-zone-wrapper">
+    <div class="grab-zone">
+      <div class="grab-zone__debug">
+      <strong>Debug info:</strong>
+      <p>Current state: waiting</p>
+      <p>Extended arm: No</p>
+    </div>
+    <div class="grab-zone__danger">
+      <div class="grabber grabber--waiting false">
+        <div class="grabber__body"></div
+          ><img class="grabber__face" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/184729/head.svg">
+          <div class="grabber__arm-wrapper" style="transform: rotate(-33deg);">
+            <div class="grabber__arm">
+              <img class="grabber__hand" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/184729/hand.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.9.0/umd/react.production.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.9.0/umd/react-dom.production.min.js'></script>
+  <script  src="./script.js"></script>
+</body>
+</html>
