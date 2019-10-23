@@ -299,7 +299,7 @@ html {
   }
   
   .debug-button {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     background: transparent;
